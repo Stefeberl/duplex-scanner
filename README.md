@@ -30,7 +30,7 @@ cd <DEIN_REPO>
 ```
 Führe das Skript aus:
 ```
-python pdf_sorter.py
+python duplex_scan.py
 ```
 Gib den Pfad zur gewünschten PDF-Datei ein, z. B.:
 
@@ -40,6 +40,7 @@ Bitte gib den vollständigen Pfad zu einer Datei ein: </Users/username/Documents
 ```
 Das resultiert in:
 ```
-✅ Wurde ergolgreich nach /Users/username/Documents/test.pdf geschrieben.
+Datei gefunden: /Users/username/Documents/test.pdf
+Wurde ergolgreich nach /Users/username/Documents/sorted_test.pdf geschrieben.
 ```
 
