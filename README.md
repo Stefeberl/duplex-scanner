@@ -25,8 +25,8 @@ Sortiert: 1 6 2 5 3 4
 ## Nutzung
 Klone dieses Repository:
 ```
-git clone https://github.com/<DEIN_USERNAME>/<DEIN_REPO>.git
-cd <DEIN_REPO>
+git clone https://github.com/Stefeberl/duplex-scanner.git
+cd duplex-scanner
 ```
 Führe das Skript aus:
 ```
