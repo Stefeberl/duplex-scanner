@@ -40,4 +40,4 @@ new_filename =  os.path.join(os.path.dirname(path), "sorted_" + os.path.basename
 with open(new_filename, "wb") as f:
     writer.write(f)
 
-print(" Wurde ergolgreich nach  \n" + new_filename + "\n" + "geschrieben."  )
+print(" Wurde erfolgreich nach  \n" + new_filename + "\n" + "geschrieben."  )
