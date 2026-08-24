@@ -10,7 +10,7 @@ Dieses Python-Skript sortiert die Seiten einer solchen PDF-Datei richtig ein.
 
 Es nimmt abwechselnd Seiten vom **Anfang** und **Ende** der Datei und speichert das Ergebnis als neue PDF.  
 
-Es lohnt sich daher erst alle Vorderseiten zu scannen, dann den Stapel als Ganzes umzudrehen und dann die Rückseiten in die selbe PDF anhängen.
+Es lohnt sich daher erst alle Vorderseiten zu scannen, dann den Stapel als Ganzes umzudrehen und dann die Rückseiten in die selbe PDF anzuhängen.
 Dann hat man eine PDF die zur ersten Hälfte aus den Aufsteigenden ungeraden Seiten und zur zweiten Hälfte aus absteigenden ungeraden Seiten besteht (wie oben beschrieben).
 Die richtige verzahnte Sortierung dieser PDF erledigt dann `duplex-scanner` . 
 
