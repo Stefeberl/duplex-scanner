@@ -26,14 +26,16 @@ number_of_pages = len(reader.pages)
 
 #--------------- Sorting ---------------
 i = 0
-k = math.ceil( number_of_pages/2)
-j = number_of_pages-1
-while i <= k-1:
+j = number_of_pages - 1
+
+while i < j:
     writer.add_page(reader.pages[i])
-    i = i+1
     writer.add_page(reader.pages[j])
+    i = i+1
     j = j-1
 
+if i == j and number_of_pages % 2 != 0:
+    writer.add_page(reader.pages[i])
 
 #-------------- Writing ----------------
 new_filename =  os.path.join(os.path.dirname(path), "sorted_" + os.path.basename(path))
